@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tokenization.Tokenization_API">
+      <class name="backOffice.BackOffice_API">
         <methods>
-          <include name="getToken"/>
-          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="transactionStatus"/>
         </methods>
-      </class> <!-- tokenization.Tokenization_API -->
+      </class> <!-- backOffice.BackOffice_API -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
